@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>spencer_tracking_msgs</name>
+  <version>1.0.8</version>
+  <description>Messages used for Person Detection and Tracking</description>
+
+  <maintainer email="jonatan.gines@urjc.es">Jonatan Gines</maintainer>
+  <maintainer email="linder@informatik.uni-freiburg.de">Timm Linder</maintainer>
+  <maintainer email="breuers@vision.rwth-aachen.de">Stefan Breuers</maintainer>
+  <maintainer email="beyer@vision.rwth-aachen.de">Lucas Beyer</maintainer>
+
+  <author email="linder@informatik.uni-freiburg.de">Timm Linder</author>
+  <author email="breuers@vision.rwth-aachen.de">Stefan Breuers</author>
+  <author email="beyer@vision.rwth-aachen.de">Lucas Beyer</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <build_depend>builtin_interfaces</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
