@@ -9,7 +9,7 @@ ADLINK NeuronBot2 - https://github.com/Adlink-ROS/neuronbot2
 ```sh
 mkdir ~/pedsim_ros2_ws/src -p
 cd ~/pedsim_ros2_ws/src 
-git clone https://github.com/QQting/pedsim_ros.git
+git clone https://github.com/saurabhp369/pedsim_ros2
 cd pedsim_ros
 git submodule update --init --recursive
 cd ~/pedsim_ros2_ws
